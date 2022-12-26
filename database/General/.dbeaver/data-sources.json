@@ -1,0 +1,138 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-1847cb8c3a5-133a51b1f642de67": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "postgres",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "5433",
+				"database": "postgres",
+				"url": "jdbc:postgresql://localhost:5433/postgres",
+				"home": "postgresql-x64-15",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		},
+		"postgres-jdbc-18491805a36-93114bd3cffd929": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "local_test",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "5433",
+				"database": "local_test",
+				"url": "jdbc:postgresql://localhost:5433/local_test",
+				"home": "postgresql-x64-15",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-184c3896865-6999e4dde6cb8096": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "terraradtech_dev",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "5433",
+				"database": "terraradtech_dev",
+				"url": "jdbc:postgresql://localhost:5433/terraradtech_dev",
+				"home": "postgresql-x64-15",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-184fbed5bec-48e525c669cc1d9a": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "electricity_applications",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "5433",
+				"database": "electricity_applications",
+				"url": "jdbc:postgresql://localhost:5433/electricity_applications",
+				"home": "postgresql-x64-15",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"virtual-models": {
+		"postgres-jdbc-184c3896865-6999e4dde6cb8096": {
+			"terraradtech_dev": {
+				"public": {
+					":core_asbuser": {
+						"constraints": {
+							"VIRTUAL_PK": {
+								"type": "vpk",
+								"useAllColumns": true
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
